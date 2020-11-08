@@ -1,2 +1,3 @@
-# project_megabox
-MEGABOX Publishing
+# 06_megabox
+MEGABOX / Publishing Project
+main
