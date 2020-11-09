@@ -214,7 +214,11 @@ body { font-family: 'Noto Sans KR', sans-serif; }
 }
 /* 화면너비 0 ~ 786px */
 @media (max-width: 786px) {
-
+    .row { padding: 0 16px; }
+    #mNav { right: 6px; }
+    .header h1 strong { display: none; }
+    .header h1 { text-align: left; }
+    
 }
 /* 화면너비 0 ~ 480px */
 @media (max-width: 480px) {
