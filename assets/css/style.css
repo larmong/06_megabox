@@ -252,7 +252,7 @@ body { font-family: 'Noto Sans KR', sans-serif; }
     .slider { height: 500px; }
     .slider .swiper-slide h2 {
         margin-top: 120px;
-        font-size: 37px;
+        font-size: 45px;
         line-height: 50px;
     }
     .slider .swiper-slide h2::after {
@@ -282,13 +282,26 @@ body { font-family: 'Noto Sans KR', sans-serif; }
     #mNav { right: 6px; }
     .header h1 strong { display: none; }
     .header h1 { text-align: left; }
+    .banner_menu .bm_right ul li.white a {
+        font-size: 14px;
+        padding: 7px 9px 9px 9px;
+        color: #fff; background: rgba(0,0,0,0.6);
+        border: 1px solid #fff;
+    }
+    .banner_menu .bm_right ul li.purple a {
+        font-size: 14px;
+        padding: 7px 9px 9px 9px;
+        color: #fff; background: rgba(0,0,0,0.6);
+        border: 1px solid #fff;
+    }
+    .swiper-pagination-bullet { width: 13px !important;  height: 13px !important; }
 }
 /* 화면너비 0 ~ 600px */
 @media (max-width: 600px) {
     .slider { height: 400px; }
     .slider .swiper-slide h2 {
-        margin-top: 100px;
-        font-size: 37px;
+        margin-top: 125px;
+        font-size: 40px;
         line-height: 38px;
     }
     .slider .swiper-slide h2::after {
@@ -302,8 +315,21 @@ body { font-family: 'Noto Sans KR', sans-serif; }
         padding-top: 20px; 
     }
     .banner_menu .bm_right ul {
-        margin-top: 230px;
+        margin-top: 250px;
     }
+    .banner_menu .bm_right ul li.white a {
+        font-size: 14px;
+        padding: 3px 5px 5px 5px;
+        color: #fff; background: rgba(0,0,0,0.6);
+        border: 1px solid #fff;
+    }
+    .banner_menu .bm_right ul li.purple a {
+        font-size: 14px;
+        padding: 3px 5px 5px 5px;
+        color: #fff; background: rgba(0,0,0,0.6);
+        border: 1px solid #fff;
+    }
+    .swiper-pagination-bullet { width: 13px !important;  height: 13px !important; }
 }
 /* 화면너비 0 ~ 480px */
 @media (max-width: 480px) {
