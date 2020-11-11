@@ -242,66 +242,6 @@ body.modal_on {overflow: hidden;}
 
 
 
-/* 미디어 쿼리 */
-/* 화면크기 0 ~ 1290px */
-@media (max-width: 1290px){
-    .container {width: 100%;}
-    #header .row {padding-right: 0;}
-    .header .nav li:last-child {border-right: 0;}
-    
-    .slider .swiper-slide.ss3 {text-align: center;} 
-}
-
-/* 화면크기 0 ~ 1024px */
-@media (max-width: 1024px){
-    .header h1 em {padding: 11px 11px 8px 0px; }
-    .header h1 em img {width: 135px; }
-    .header h1 strong {left: 150px; top: 18px;}
-    .header h1 strong img {width: 117px;}
-    
-    .help article.help_box1 {width: 49%; margin-right: 2%;}
-    .help article.help_box2 {width: 49%; margin-right: 0;}
-    .help article.help_box3 {width: 100%; margin-top: 2%; }
-    .help article.help_box3 h3 {overflow: hidden; position:absolute; width:0; height:0; line-height:0; text-indent:-9999px;}
-    .help article.help_box3 > div {border: 1px solid #dbdbdb; height: auto;}
-    .service li {width: 25%; height: auto; border: 0; }
-    .service li a strong {display: block; padding-bottom: 10%;}
-    .service li a span {display: block;}
-}
-
-/* 화면크기 0 ~ 960px */
-@media (max-width: 960px){
-    #mNav {display: block;}
-    .header .nav {display: none;}
-    .header h1 {text-align: center; float: none;}
-    .header h1 em {padding-right: 0;}
-    .header h1 strong {left: 0px;}
-    
-    .banner_menu .bm_left ul {display: none;}
-    .banner_menu .bm_right ul:first-child {display: none;}
-    
-    .slider {height: 500px;}
-    .slider .swiper-slide h3 {margin-top: 210px; font-size: 40px;}
-    .slider .swiper-slide p {margin-bottom: 100px; font-size: 20px;}
-    
-    .movie_title ul {width: auto;}
-    .movie_title li {width: 25%; box-sizing: border-box; padding-right: 1px }
-    
-    .event {padding: 50px 0;}
-    
-    .opening {padding: 50px 0;}
-    .opening .open_box {display: none;}
-    .opening .desc {background: none; font-size: 25px;}
-    
-    .new {background: #fff; padding: 50px 0;}
-    .new .new_left {margin-right: 0; height: 400px;}
-    .new .new_right {position: relative; top:0; width: 100%; height: auto;}
-    .new .new_right .summary .desc {height: auto;}
-    
-    .footer_sns {position: static; text-align: center; background: #352c2c; padding-bottom: 15px;}
-    .footer_sns .tel {display: none;}
-    .footer_infor {width: 100%; text-align: center;}
-}
 
 /* 화면크기 0 ~ 768px */
 @media (max-width: 768px){

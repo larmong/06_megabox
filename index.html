@@ -45,6 +45,14 @@
    <![endif]-->
 </head>
 <body>
+    <!-- 스킵 메뉴 -->
+    <div id="skip">
+        <a rel="bookmark" href="#movie">최신 영화 소식</a>
+        <a rel="bookmark" href="#event">새로운 이벤트</a>
+        <a rel="bookmark" href="#new">새로운 영화</a>
+    </div>
+    <!-- //스킵 메뉴 -->
+    
     <header id="header">
         <div class="container">
             <div class="row">
@@ -75,6 +83,7 @@
         </div>
     </header>
     <!-- //header -->
+    
     
     <section id="banner">
         <div class="banner_menu">
@@ -137,6 +146,7 @@
         </div>
     </section>
     <!-- //banner -->
+    
     
     <section id="movie">
         <div class="container">
@@ -654,6 +664,7 @@
     </section>  
     <!-- //movie -->
     
+    
     <section id="event">
         <div class="container">
             <div class="row">
@@ -678,6 +689,7 @@
         </div>
     </section>
     <!-- //event -->
+    
     
     <section id="opening">
         <div class="container">
@@ -705,6 +717,7 @@
         </div>
     </section>
     <!-- //opening -->
+    
     
     <section id="new">
         <div class="container">
@@ -786,6 +799,7 @@
         </div>
     </section>
     <!-- //new -->
+    
     
     <section id="help">
         <div class="container">
@@ -1314,6 +1328,7 @@
     </section>
     <!-- //help -->
     
+    
     <footer id="footer">
         <div id="footer_sns">
             <div class="container">
@@ -1355,14 +1370,25 @@
         </div>
     </footer>
     <!-- //footer -->
-
     
-    <!-- script -->
-    <script src="./assets/js/jquery.min_1.12.4.js"></script>
-    <script src="./assets/js/modernizr-custom.js"></script>
-    <script src="./assets/js/ie-checker.js"></script>
-    <script src="./assets/js/swiper.min.js"></script>
-    <!-- main_js -->
-    <script src="./assets/js/main.js"></script>
+    
+    <!-- 트레일러 -->
+    <aside id="blackout" class="overlay">
+        <div id="trailerModal" class="modal">
+            <div id="trailer"></div><!-- YouTube 플레이어로 대체되는 부분 -->
+        </div>
+        <button id="hideTrailer" class="modal_close">닫기</button>
+    </aside>
+    <!-- //트레일러 -->
+    
+    
+    <!-- 자바스크립트 라이브러리 -->
+    <script src="assets/js/jquery.min_1.12.4.js"></script>
+    <script src="assets/js/modernizr-custom.js"></script>
+    <script src="assets/js/ie-checker.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/iframe_api.js"></script>
+    <script src="assets/js/movie.js"></script>
+    <script src="assets/js/custom.js"></script>
 </body>
 </html>
