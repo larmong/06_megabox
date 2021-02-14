@@ -1,4 +1,4 @@
-# 06_megabox
+# MEGABOX
 MEGABOX / Publishing Project
 main page
 
